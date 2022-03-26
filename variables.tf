@@ -1,6 +1,6 @@
 variable "service_accounts" {
   type = list(object({
-    account_id   = account_id,
+    account_id   = string,
     display_name = string
   }))
   description = "The list of service accounts"
